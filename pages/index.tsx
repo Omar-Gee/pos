@@ -14,7 +14,7 @@ export default function Index() {
 
   
   const send =() => {
-    fetch('tester', {
+    fetch('/api/tester', {
       method: 'POST',
       body: JSON.stringify({name})
     })
